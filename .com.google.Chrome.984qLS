@@ -1,0 +1,374 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shree Nekunj Palace - 5★ Luxury Hotel Booking</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 500px;
+      margin: 40px auto;
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      border-top: 5px solid gold;
+    }
+    h1 {
+      text-align: center;
+      color: #222;
+      margin-bottom: 5px;
+    }
+    .tagline {
+      text-align: center;
+      font-style: italic;
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 10px;
+    }
+    .stars {
+      text-align: center;
+      font-size: 20px;
+      color: gold;
+      margin-bottom: 15px;
+    }
+    .features {
+      background-color: #f0fff0;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+      margin: 10px 0;
+    }
+    .features p {
+      margin: 5px 0;
+      font-weight: bold;
+    }
+    .badge {
+      background-color: #ffe0b3;
+      text-align: center;
+      padding: 8px;
+      border-radius: 6px;
+      margin-bottom: 15px;
+      color: #b36b00;
+      font-weight: bold;
+    }
+    p.price {
+      background: #e0f7fa;
+      padding: 10px;
+      border-radius: 6px;
+      color: #0d47a1;
+      font-weight: bold;
+      text-align: center;
+    }
+    .notice {
+      background-color: #fff3cd;
+      color: #856404;
+      border: 1px solid #ffeeba;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 10px 0;
+      text-align: center;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button, .call-btn {
+      background-color: #007bff;
+      color: white;
+      padding: 10px;
+      width: 100%;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+    }
+    button:hover, .call-btn:hover {
+      background-color: #0056b3;
+    }
+    .whatsapp {
+      background-color: #25D366 !important;
+    }
+    .insta {
+      background-color: #C13584 !important;
+    }
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: #888;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Shree Nekunj Palace</h1>
+  <div class="tagline">A 5★ Luxury Stay Near Gumandev Mandir, Ujjain</div>
+  <div class="stars">★★★★★</div>
+
+  <div class="features">
+    <p>🛏️ Royal AC Rooms with LED TV</p>
+    <p>🚿 24x7 Hot Water & Room Service</p>
+    <p>🚶 Just 2 mins from Gumandev Mandir</p>
+  </div>
+
+  <div class="badge">👑 Trusted by 1000+ Happy Guests</div>
+
+  <p class="price">
+    ₹3500 / Room (Food not included)<br>
+    Total Rooms: 10 Available
+  </p>
+
+  <div class="notice">
+    🚗 Car parking available only if "Bat Place" is present.
+  </div>
+
+  <!-- ✅ Formsubmit for email delivery -->
+  <form action="https://formsubmit.co/yoyomadhav32@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Booking - Shree Nekunj Palace">
+    <input type="hidden" name="_template" value="table">
+
+    <label>Full Name</label>
+    <input type="text" name="Full Name" required>
+
+    <label>Age</label>
+    <input type="number" name="Age" required>
+
+    <label>Aadhar Card Number</label>
+    <input type="text" name="Aadhar Number" maxlength="12" required>
+
+    <label>Mobile Number</label>
+    <input type="tel" name="Mobile Number" pattern="[0-9]{10}" required>
+
+    <label>Number of Days</label>
+    <input type="number" name="Days to Stay" min="1" max="30" required>
+
+    <label>Bat Place Available?</label>
+    <select name="Bat Place" required>
+      <option value="">Select</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+
+    <label>Rate Our Hotel</label>
+    <select name="Hotel Rating" required>
+      <option value="">Select Rating</option>
+      <option value="1">★☆☆☆☆ (1 - Poor)</option>
+      <option value="2">★★☆☆☆ (2 - Fair)</option>
+      <option value="3">★★★☆☆ (3 - Good)</option>
+      <option value="4">★★★★☆ (4 - Very Good)</option>
+      <option value="5">★★★★★ (5 - Excellent)</option>
+    </select>
+
+    <button type="submit">📝 Apply Now</button>
+  </form>
+
+  <a class="call-btn" href="tel:9827762866">📞 Call Now</a>
+
+  <a class="call-btn whatsapp" href="https://wa.me/919827762866?text=Hello%20Shree%20Nekunj%20Palace,%20I%20want%20to%20book%20a%20room." target="_blank">
+    💬 WhatsApp Us
+  </a>
+  </a>
+
+  <footer>
+    © 2025 Shree Nekunj Palace – A 5★ Luxury Hotel in Ujjain.
+  </footer>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome - Shree Nekunj Palace</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+    }
+    .box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #007bff;
+    }
+    .feature {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .emoji {
+      font-size: 24px;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    a:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h1>🏨 Shree Nekunj Palace</h1>
+    <p class="feature">📶 <span class="emoji">WiFi Available</span></p>
+    <p class="feature">❄️ <span class="emoji">AC Room</span></p>
+    <p class="feature">🌟 This is a great place to stay!</p>
+    <a href="index.html">🔙 Back to Booking</a>
+  </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotel Bill - Shree Nekunj Palace</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #f3f3f3;
+      padding: 20px;
+      max-width: 650px;
+      margin: auto;
+      border-radius: 10px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 15px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    .bill {
+      background: white;
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🧾 Shree Nekunj Palace - Bill Calculator</h2>
+
+  <label>Yatri ka Naam:</label>
+  <input type="text" id="name">
+
+  <label>Address:</label>
+  <input type="text" id="address">
+
+  <label>Email:</label>
+  <input type="email" id="email">
+
+  <label>Mobile Number:</label>
+  <input type="text" id="mobile">
+
+  <label>Small Room Book Kitne:</label>
+  <input type="number" id="smallRoom" value="0">
+
+  <label>Big Room Book Kitne:</label>
+  <input type="number" id="bigRoom" value="0">
+
+  <label>Kitne Din ke liye:</label>
+  <input type="number" id="days" value="1">
+
+  <button onclick="generateBill()">Bill Banaye</button>
+
+  <div class="bill" id="billOutput" style="display:none;"></div>
+
+  <script>
+    function generateBill() {
+      const name = document.getElementById('name').value;
+      const address = document.getElementById('address').value;
+      const email = document.getElementById('email').value;
+      const mobile = document.getElementById('mobile').value;
+      const smallRoom = parseInt(document.getElementById('smallRoom').value);
+      const bigRoom = parseInt(document.getElementById('bigRoom').value);
+      const days = parseInt(document.getElementById('days').value);
+
+      const priceSmall = 3000;
+      const priceBig = 4500;
+      const gstRate = 0.18;
+
+      // 🔁 Set discount based on days
+      let discountRate = 0;
+      if (days >= 1 && days <= 4) {
+        discountRate = 0.06;
+      } else if (days >= 5 && days <= 500) {
+        discountRate = 0.10;
+      } else {
+        discountRate = 0; // No discount if more than 7 or invalid
+      }
+
+      const totalSmall = smallRoom * priceSmall * days;
+      const totalBig = bigRoom * priceBig * days;
+      const totalBeforeTax = totalSmall + totalBig;
+      const gst = totalBeforeTax * gstRate;
+      const discount = totalBeforeTax * discountRate;
+      const finalAmount = totalBeforeTax + gst - discount;
+
+      document.getElementById('billOutput').style.display = 'block';
+      document.getElementById('billOutput').innerHTML = `
+        <h3>🧾 Final Bill</h3>
+        <p><strong>Naam:</strong> ${name}</p>
+        <p><strong>Address:</strong> ${address}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Mobile:</strong> ${mobile}</p>
+        <hr>
+        <p><strong>Small Rooms:</strong> ${smallRoom} x ₹3000 x ${days} Day(s) = ₹${totalSmall}</p>
+        <p><strong>Big Rooms:</strong> ${bigRoom} x ₹4500 x ${days} Day(s) = ₹${totalBig}</p>
+        <p><strong>Total Before GST & Discount:</strong> ₹${totalBeforeTax}</p>
+        <p><strong>GST (18%):</strong> ₹${gst.toFixed(2)}</p>
+        <p><strong>Discount (${(discountRate * 100)}%):</strong> -₹${discount.toFixed(2)}</p>
+        <hr>
+        <h3>Total Amount Payable: ₹${finalAmount.toFixed(2)}</h3>
+      `;
+    }
+  </script>
+
+</body>
+</html>
